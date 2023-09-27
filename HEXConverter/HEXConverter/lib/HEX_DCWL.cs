@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace HEXConverter.lib
 {
@@ -10,7 +9,6 @@ namespace HEXConverter.lib
         public static string SHEX_;
         public static void THEX(string TEXT_)
         {
-
             BHEX_ = Encoding.UTF8.GetBytes(TEXT_);
             SHEX_ = Convert.ToHexString(BHEX_);
         }
